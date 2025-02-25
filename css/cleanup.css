@@ -1,1 +1,35 @@
-/* write your override styles here */
+/* Remove unwanted backgrounds and text styles */
+#wall {
+    background: none !important;
+  }
+  
+  .tag-1, 
+  #tag-2, 
+  #tag-3, 
+  #tag-4, 
+  #tag-5, 
+  #tag-6, 
+  #tag-7 {
+    display: none !important;
+  }
+  
+  /* Reset text styles */
+  .slick, .wicked {
+    color: black !important;
+    font-size: 16px !important;
+    font-weight: normal !important;
+    text-shadow: none !important;
+  }
+  
+  /* Remove any borders, padding, and margins */
+  .parent, 
+  #wall div {
+    border: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  
+  /* Ensure there are enough overrides */
+  * {
+    all: unset !important;
+  }
